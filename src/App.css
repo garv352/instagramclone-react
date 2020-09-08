@@ -1,0 +1,140 @@
+*{
+  margin :0;
+}
+.App {
+  background-color: #fafafa;
+  /* height: 100vh; */
+}
+.app_header{
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 15px 10px 5px 160px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+.app_headerImage{
+  object-fit: contain;
+  justify-content: center;
+ 
+}
+img.app_headerImage{
+  
+  margin-top: -6px;
+  
+
+}
+
+
+.app_signup{
+  display : flex;
+  flex-direction: column;
+  text-align : center;
+  margin : 10px;
+}
+
+.app_posts{
+  padding:20px;
+  margin: auto;
+  /* display: flex; */
+  justify-content: center;
+}
+
+.react-icons{
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.app_headerImage{
+  margin-top: 12px;
+  margin-left:51px ;
+}
+
+
+.modl_side{
+  margin : 5px;
+}
+
+/* .app_loginContainer{
+  margin-right: 10px;
+} */
+
+.react-login{
+  margin-right: 10px;
+  margin-top: -18px;
+}
+
+.react-signup{
+  margin-right: 10px;
+  margin-top: -18px;
+}
+.camera{
+  position: absolute;
+  margin-top: -6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .camera{
+    margin-top: -4px;
+    margin-left: -136px;
+    
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .app_headerImage {
+    
+    margin-left: 3px;
+    
+}
+}
+
+
+@media only screen and (max-width: 376px) {
+  .camera{
+    margin-top: -3px;
+    margin-left: -136px;
+    
+  }
+
+  .app_headerImage {
+    /* margin-top: 12px; */
+    margin-left: -24px;
+    /* justify-items: center; */
+}
+
+.react-signup{
+  /* margin-right: 10px; */
+  margin-bottom: -4px;
+}
+.react-login{
+  margin-bottom: -4px;
+}
+.react-icons{
+ margin-bottom: -4px;
+}
+}
+
+
+@media only screen and (max-width: 320px) {
+  .camera{
+    margin-top: -3px;
+    margin-left: -136px;
+    
+  }
+
+  .app_headerImage {
+    margin-left: -48px;
+   
+}
+}
+
+
+.initals{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  color: #b1afaf ;
+}
